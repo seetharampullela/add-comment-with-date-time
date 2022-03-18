@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+.input-text {
+  margin-bottom: 5px;
+  outline: none;
+  height: 30px;
+}
+
+.textarea {
+  margin-top: 5px;
+  outline: none;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-image {
+  display: flex;
+}
